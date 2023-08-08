@@ -1,0 +1,116 @@
+.headerFlex {
+  display: flex;
+  background-color: #000035;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 110px;
+}
+
+.darkHeaderFlex {
+  display: flex;
+  background-color: #000000;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 110px;
+}
+
+.darkLogoHead {
+  background-color: transparent;
+  width: 195px;
+  height: 109.68px;
+  cursor: pointer;
+}
+
+.logoHead {
+  width: 195px;
+  height: 109.68px;
+  cursor: pointer;
+}
+
+.inputsSB {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 3rem;
+}
+
+.inputs {
+  display: flex;
+}
+
+.inputs h5 {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.inputs button {
+  background-color: transparent;
+  border: none;
+}
+
+.inputs button:hover {
+  cursor: pointer;
+}
+.name {
+  color: white;
+  margin-top: 0px;
+}
+
+.switchDiv {
+  background-color: white;
+  border-radius: 1.5rem;
+  height: 100%;
+}
+
+.darkMode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.darkMode h6 {
+  margin: 0;
+  color: white;
+}
+
+.darkMode h3 {
+  color: white;
+  height: 100%;
+}
+
+.loginCorrectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logInUserStyle {
+  transition: 0.1s background-color ease;
+}
+
+.logInUserStyle:hover {
+  background-color: rgb(195, 195, 195, 20%);
+  cursor: pointer;
+}
+
+.logInUserStyle button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.logInUserStyle img {
+  width: 45px;
+  height: 45px;
+}
+
+.logInUserStyle h5 {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}

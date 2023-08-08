@@ -1,0 +1,60 @@
+.Grid {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.saleGames {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  margin: auto;
+  gap: 2rem;
+}
+
+.imgSale {
+  width: 1200px;
+  height: 150px;
+  border-radius: 0.5em;
+  margin: 0 auto 1rem;
+}
+
+.darkSalesTitle h1 {
+  font-size: 3rem;
+  text-align: start;
+  color: #dfdfdf;
+}
+
+.darkSalesTitle h3 {
+  color: #dfdfdf;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.salesTitle h1 {
+  font-size: 3rem;
+  text-align: start;
+  color: #000031;
+}
+
+.salesTitle h3 {
+  color: #000031;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.salesTitle {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.darkSalesTitle {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
